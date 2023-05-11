@@ -1,0 +1,40 @@
+#canvas {
+    border: 1px solid #ccc;
+    height: 300px;
+    margin-bottom: 20px;
+    padding: 10px;
+    }
+    
+    #toolbar {
+    margin-bottom: 20px;
+    }
+    
+    #assistant {
+    border: 1px solid #ccc;
+    padding: 10px;
+    }
+    
+    #assistant h5 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    }
+    
+    #assistant ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+    
+    #assistant li {
+    margin-bottom: 5px;
+    }
+    
+    #assistant a {
+    text-decoration: none;
+    color: #333;
+    }
+    
+    #assistant a:hover {
+    text-decoration: underline;
+    }
+    
