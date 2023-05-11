@@ -26,14 +26,51 @@
                     <div id="canvas">
                         <button class="btn btn-primary" id="btn-bold"><strong>B</strong></button>
                         <button class="btn btn-primary" id="btn-italic"><em>I</em></button>
-                        <button class="btn btn-primary" id="btn-underline"><u>U</u></button>
+                        <button class="btn btn-primary" id="btn-underline" data-bs-toggle="modal" data-bs-target="#myModal"><u>A</u></button>
+                        
+                        <div class="modal" id="myModal" tabindex="-1">
+                            <div class="modal-dialog modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title">Asistente de expresiones</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <div class="row">
+                                    <div class="col-md-3">
+                                      <input type="text" class="form-control mb-3" id="search-text" placeholder="Search...">
+                                      <ul class="list-group">
+                                        <li class="list-group-item active">Funciones</li>
+                                        <li class="list-group-item">Variables</li>
+                                      </ul>
+                                    </div>
+                                    <div class="col-md-9">
+                                      <ul class="list-group">
+                                        <li class="list-group-item active">Section 1</li>
+                                        <li class="list-group-item">Item 1</li>
+                                        <li class="list-group-item">Item 2</li>
+                                        <li class="list-group-item">Item 3</li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                  <button type="button" class="btn btn-primary" id="btn-underline-modal"> guardar</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          
                     </div>
                 </div>
                 
                 </div>
             </div>
         </div>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
+        <script src="JS.js"></script>
     </body>
 </html>
