@@ -1,4 +1,4 @@
-package soluciones_xoftix.editormatematico;
+package soluciones_xoftix;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
